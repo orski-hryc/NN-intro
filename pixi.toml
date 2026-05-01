@@ -1,0 +1,16 @@
+[workspace]
+authors = ["M Hryc <cyhr@platinum.edu.pl>"]
+channels = ["conda-forge", "bioconda", "nodefaults"]
+name = "NN-intro"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jax = ">=0.9.2,<0.10"
+numpy = ">=2.4.3,<3"
+matplotlib = ">=3.10.8,<4"
+pixi-kernel = ">=0.7.1,<0.8"
+jupyter = ">=1.1.1,<2"
+seaborn = ">=0.13.2,<0.14"
